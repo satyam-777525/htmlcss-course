@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form action="">
+
+    <div>
+        <label for="uname">UserName:</label>
+    <input id="uname" type="text" placeholder="enter username">
+    </div>
+    <br>
+
+    <div>
+        <label for="Email">Email:</label>
+    <input id="Email" type="email" placeholder="enter the email">
+    
+    </div>
+    <br>
+
+    <div>
+        <label for="pass">Password:</label>
+        <input  id="pass" type="password" placeholder="enter password"  minlength="0" maxlength="8">
+    </div>
+     <br>
+
+    <div>
+        <label for="age">Age:</label>
+        <input id="age" type="number" placeholder="enter age" min="0" max="100">
+    </div>
+     <br>
+
+    <input type="date"><br>
+    <input type="file"><br>
+    <input type="color"><br>
+    <input type="range"><br>
+    <input type="submit" value="signup">
+    <input type="reset" value="reset">
+
+    <div>
+        <label for=""> Enter Gender:</label>
+        <input type="radio" value="M" name="Gender"> Male <!-- value means database m ye value store hogi iss pr click krne pr  and name means in m se ek select hoga or name wale coloumn m store hoga  -->
+        <input type="radio" value="F" name="Gender"> Female
+        <input type="radio" value="O" name="Gender"> other
+    </div>
+
+    <div>
+        <label for="">Select Skills:</label>
+        <input type="checkbox" value="html">HTML <!-- value means database m ye value store hogi iss pr click krne pr  -->
+        <input type="checkbox" value="css">CSS
+        <input type="checkbox" value="java">JAVA
+    </div>
+
+    <div>
+        <select name="selectSkill" id="">
+            <option value="">select your skill</option>
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">JAVA</option>
+
+        </select>
+    </div>
+
+    <!-- feedbak ka dibba -->
+     <div>
+        <textarea name="" id="" rows="10" cols="30" placeholder="write the feedbak"></textarea>
+     </div>
+
+</form>
+
+</body>
+</html>

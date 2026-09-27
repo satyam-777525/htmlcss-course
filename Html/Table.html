@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>My Recodrs:</h1>
+    <table border="2px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Mark</th>
+                <th>Sub</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Satyam</td>
+                <td>99</td>
+                <td>cs</td>
+            </tr>
+            <tr>
+                <td>mohit</td>
+                <td>97</td>
+                <td>cs</td>
+            </tr>
+            <tr>
+                <td>priyanshu</td>
+                <td>96</td>
+                <td>cs</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td>Shiivam</td>
+                <td>99</td>
+                <td>cs</td></tr>
+        </tfoot>
+    </table>
+    <br><br><br>
+
+    <!-- row and colspan -->
+     <table border="2">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Mark</th>
+                <th>Sub</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Satyam</td>
+                <td rowspan="2">99</td>
+                <td>cs</td>
+            </tr>
+            <tr>
+                <td>mohit</td>
+                <td>cs</td>
+            </tr>
+            <tr>
+                <td>priyanshu</td>
+                <td>96</td>
+                <td>cs</td>
+            </tr></tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">total:453</td>
+            </tr>
+        </tfoot>
+     </table>
+    
+</body>
+</html>

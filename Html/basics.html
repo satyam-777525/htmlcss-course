@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day</title>
+</head>
+<body>
+    <h1 title="mt dekh lala">this is first line</h1>
+    <h2>this is secound line</h2>
+    <h3>this is third line</h3>
+    <h4>this is fourth line</h4>
+    <h5>this is fifth line</h5>
+    <h6>this is sixth line</h6>
+    <sub>test</sub>
+    <del>dfghj</del>
+    <mark>thank</mark>
+    <i>welcome</i>
+    
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis culpa consequuntur consequatur laudantium provident blanditiis nam accusantium omnis, asperiores minima.
+    <br>
+
+    <a href="httpsgoogle.com" target="_blank">google</a><br>
+    <a href="tel:+9389260648">Contact Us</a><br>
+    <a href="mailto:satyam@gmail.com">Email</a><br>
+    <!-- self closing tag -->
+    <img src="https://i.pinimg.com/1200x/36/4b/7f/364b7f406d6af5c7d7075952df957e4e.jpg" alt="building">
+
+    <!-- unordered list -->
+
+    <ul><li>mango</li>
+    <li>apple</li>
+    <li>Banana</li>
+    <li>papaya</li>
+    <li>watermelon</li></ul>
+
+    <!-- orderd list -->
+
+    <ol><li>water</li>
+    <li>tea</li>
+    <li>sugar</li>
+<li>milk</li></ol>
+
+
+</body>
+</html>
+
+# HTML Notes (Hinglish)
+
+# What is HTML?
+
+HTML ka full form:
+
+```text
+Hyper Text Markup Language
+```
+
+HTML webpages banane ke liye use hoti hai.
+
+* Structure provide karti hai
+* Webpage ka skeleton hoti hai
+* Browser HTML ko read karke webpage display karta hai
+
+---
+
+# Basic HTML Structure
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
+```
+
+---
+
+# Explanation
+
+## `<!DOCTYPE html>`
+
+Browser ko batata hai ki document HTML5 hai.
+
+---
+
+## `<html>`
+
+Pure HTML document ka root tag.
+
+---
+
+## `<head>`
+
+Metadata store karta hai:
+
+* title
+* CSS links
+* meta tags
+* scripts
+
+---
+
+## `<body>`
+
+Visible webpage content.
+
+---
+
+# HTML Tags
+
+HTML tags angle brackets me likhe jate hain.
+
+Example:
+
+```html
+<p>Hello</p>
+```
+
+* Opening tag → `<p>`
+* Closing tag → `</p>`
+
+---
+
+# Types of Tags
+
+## 1. Paired Tags
+
+```html
+<h1>Hello</h1>
+```
+
+---
+
+## 2. Empty Tags
+
+Closing tag nahi hota.
+
+```html
+<br>
+<hr>
+<img>
+```
+
+---
+
+# Headings
+
+```html
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+
+`h1` sabse bada heading.
+
+---
+
+# Paragraph
+
+```html
+<p>This is paragraph</p>
+```
+
+---
+
+# Line Break
+
+```html
+<br>
+```
+
+New line ke liye.
+
+---
+
+# Horizontal Line
+
+```html
+<hr>
+```
+
+Line draw karta hai.
+
+---
+
+# Text Formatting Tags
+
+## Bold
+
+```html
+<b>Bold</b>
+```
+
+---
+
+## Strong
+
+```html
+<strong>Important</strong>
+```
+
+---
+
+## Italic
+
+```html
+<i>Italic</i>
+```
+
+---
+
+## Emphasized
+
+```html
+<em>Text</em>
+```
+
+---
+
+## Underline
+
+```html
+<u>Underline</u>
+```
+
+---
+
+## Mark
+
+```html
+<mark>Highlight</mark>
+```
+
+---
+
+## Small
+
+```html
+<small>Small text</small>
+```
+
+---
+
+## Deleted
+
+```html
+<del>Deleted</del>
+```
+
+---
+
+## Inserted
+
+```html
+<ins>Inserted</ins>
+```
+
+---
+
+## Subscript
+
+```html
+H<sub>2</sub>O
+```
+
+---
+
+## Superscript
+
+```html
+x<sup>2</sup>
+```
+
+---
+
+# Lists
+
+# Ordered List
+
+```html
+<ol>
+  <li>Apple</li>
+  <li>Mango</li>
+</ol>
+```
+
+---
+
+# Unordered List
+
+```html
+<ul>
+  <li>Tea</li>
+  <li>Coffee</li>
+</ul>
+```
+
+---
+
+# Description List
+
+```html
+<dl>
+  <dt>HTML</dt>
+  <dd>Markup language</dd>
+</dl>
+```
+
+---
+
+# Anchor Tag
+
+Used for links.
+
+```html
+<a href="https://google.com">Google</a>
+```
+
+---
+
+# Image Tag
+
+```html
+<img src="image.jpg" alt="image">
+```
+
+## Attributes
+
+* src → image path
+* alt → alternate text
+
+---
+
+# Table
+
+```html
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+
+  <tr>
+    <td>Mohit</td>
+    <td>20</td>
+  </tr>
+</table>
+```
+
+---
+
+# Table Tags
+
+| Tag   | Meaning       |
+| ----- | ------------- |
+| table | table create  |
+| tr    | table row     |
+| th    | table heading |
+| td    | table data    |
+
+---
+
+# Forms in HTML
+
+```html
+<form>
+  <input type="text">
+  <button>Submit</button>
+</form>
+```
+
+---
+
+# Input Types
+
+```html
+<input type="text">
+<input type="password">
+<input type="email">
+<input type="number">
+<input type="radio">
+<input type="checkbox">
+<input type="date">
+<input type="file">
+```
+
+---
+
+# Label
+
+```html
+<label>Name</label>
+```
+
+---
+
+# Button
+
+```html
+<button>Click</button>
+```
+
+---
+
+# Select Dropdown
+
+```html
+<select>
+  <option>India</option>
+  <option>USA</option>
+</select>
+```
+
+---
+
+# Textarea
+
+```html
+<textarea></textarea>
+```
+
+---
+
+# Div Tag
+
+```html
+<div>
+   Content
+</div>
+```
+
+Generic container.
+
+---
+
+# Span Tag
+
+```html
+<span>Hello</span>
+```
+
+Inline container.
+
+---
+
+# Semantic Tags
+
+HTML5 semantic tags:
+
+```html
+<header>
+<nav>
+<section>
+<article>
+<footer>
+<main>
+<aside>
+```
+
+These improve:
+
+* readability
+* SEO
+* accessibility
+
+---
+
+# Audio Tag
+
+```html
+<audio controls>
+   <source src="song.mp3">
+</audio>
+```
+
+---
+
+# Video Tag
+
+```html
+<video controls width="300">
+   <source src="video.mp4">
+</video>
+```
+
+---
+
+# iframe
+
+Dusri website/page embed karne ke liye.
+
+```html
+<iframe src="https://example.com"></iframe>
+```
+
+---
+
+# HTML Attributes
+
+Attributes additional information dete hain.
+
+Example:
+
+```html
+<p class="demo">Hello</p>
+```
+
+---
+
+# Common Attributes
+
+| Attribute | Use                |
+| --------- | ------------------ |
+| id        | unique identifier  |
+| class     | CSS styling        |
+| style     | inline CSS         |
+| href      | link               |
+| src       | image/video source |
+| alt       | alternate text     |
+| width     | width              |
+| height    | height             |
+
+---
+
+# HTML Entities
+
+| Entity   | Symbol |
+| -------- | ------ |
+| `&lt;`   | <      |
+| `&gt;`   | >      |
+| `&amp;`  | &      |
+| `&copy;` | ©      |
+| `&nbsp;` | space  |
+
+---
+
+# HTML Comments
+
+```html
+<!-- This is comment -->
+```
+
+Browser me visible nahi hota.
+
+---
+
+# Difference Between Block and Inline Elements
+
+| Block Element     | Inline Element         |
+| ----------------- | ---------------------- |
+| New line leta hai | Same line me rehta hai |
+| Full width        | Content width          |
+| div, p, h1        | span, a, b             |
+
+---
+
+# HTML5 Features
+
+* Semantic tags
+* Audio/video support
+* Local storage
+* Canvas
+* Geolocation
+
+---
+
+# Difference Between HTML and HTML5
+
+| HTML                   | HTML5               |
+| ---------------------- | ------------------- |
+| Old version            | Latest version      |
+| No audio/video support | Audio/video support |
+| Less semantic tags     | More semantic tags  |
+
+---
+
+# Meta Tags
+
+```html
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+---
+
+# SEO Basics in HTML
+
+Use:
+
+* title
+* meta description
+* semantic tags
+* alt attribute
+* proper headings
+
+---
+
+# Advantages of HTML
+
+* Easy to learn
+* Platform independent
+* Supported by all browsers
+* Free to use
+
+---
+
+# Limitations of HTML
+
+* Static webpages
+* No logic
+* Styling needs CSS
+* Dynamic behavior needs JavaScript
+
+---
+
+# HTML Interview Questions
+
+## What is HTML?
+
+HTML is a markup language used to create webpages.
+
+---
+
+## Difference Between HTML and CSS
+
+| HTML      | CSS     |
+| --------- | ------- |
+| Structure | Styling |
+| Content   | Design  |
+
+---
+
+## Difference Between div and span
+
+| div           | span           |
+| ------------- | -------------- |
+| Block element | Inline element |
+
+---
+
+## What is semantic HTML?
+
+Semantic tags describe meaning of content.
+
+Example:
+
+```html
+<header>
+<footer>
+<article>
+```
+
+---
+
+## What is iframe?
+
+Used to embed another webpage.
+
+---
+
+## Difference Between id and class
+
+| id          | class         |
+| ----------- | ------------- |
+| Unique      | Multiple use  |
+| One element | Many elements |
+
+---
+
+# Mini HTML Example
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body>
+
+<h1>Welcome</h1>
+<p>This is my webpage</p>
+
+<a href="https://google.com">Google</a>
+
+<img src="image.jpg" alt="image">
+
+<ul>
+   <li>HTML</li>
+   <li>CSS</li>
+</ul>
+
+</body>
+</html>
+```
+
+---
+
+# Summary
+
+HTML is used to:
+
+* structure webpages
+* create forms
+* add media
+* create links and tables
+* build website layout
+
